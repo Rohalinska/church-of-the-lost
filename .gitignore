@@ -1,14 +1,35 @@
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-Logs/
-UserSettings/
+# =========================
+# Unity
+# =========================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
+# MemoryCaptures та Recordings можуть займати багато місця
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Автозгенерований плагін JetBrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Кеш Visual Studio
+.vs/
+
+# Кеш Gradle
+.gradle/
+
+# Автозгенеровані файли проєктів (потрібні для роботи IntelliSense у VS Code)
+ExportedObj/
+.consulo/
 *.csproj
 *.unityproj
 *.sln
+*.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
@@ -18,3 +39,22 @@ UserSettings/
 *.mdb
 *.opendb
 *.VC.db
+
+# Згенеровані Unity3D мета-файли для прихованих файлів
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Згенеровані Unity3D файли звітів про помилки (краші)
+sysinfo.txt
+
+# Зібрані білди
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# =========================
+# VS Code
+# =========================
+.vscode/
