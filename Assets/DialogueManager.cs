@@ -50,14 +50,14 @@ public class DialogueManager : MonoBehaviour
     {
         var node = nodes[currentNode];
 
-        if (currentNode == 2) // фінал
+        if (currentNode == 2) // пїЅпїЅпїЅпїЅпїЅ
         {
             if (karma >= 2)
-                dialogueText.text = node.text + "\n\nСвічка гасне...\n— Ви занадто добрі...";
+                dialogueText.text = node.text + "\n\nпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ...\nпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ...";
             else if (karma <= -2)
-                dialogueText.text = node.text + "\n\n— Тепер ваша черга, отче.";
+                dialogueText.text = node.text + "\n\nпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ.";
             else
-                dialogueText.text = node.text + "\n\nТиша позаду тебе.";
+                dialogueText.text = node.text + "\n\nпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ.";
 
             btn1.gameObject.SetActive(false);
             btn2.gameObject.SetActive(false);

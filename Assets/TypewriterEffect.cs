@@ -1,10 +1,10 @@
 using System.Collections;
 using UnityEngine;
-using TMPro; // ÂÀÆËÈÂÎ!
+using TMPro; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!
 
 public class TypewriterEffect : MonoBehaviour
 {
-    public TMP_Text storyText; // çàì³ñòü Text
+    public TMP_Text storyText; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Text
 
     [TextArea]
     public string fullText;
